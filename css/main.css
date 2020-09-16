@@ -1,0 +1,43 @@
+.maintitle {
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    background-color: black;
+}
+
+.mainpicture {
+    float: right;
+    margin-top: -100px;
+}
+
+.secondtitle {
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    text-align: left;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.assignmentlist {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.mainfooter {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(43, 92, 226);
+    text-decoration: underline;
+}
