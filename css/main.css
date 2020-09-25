@@ -1,14 +1,16 @@
 .maintitle {
     font-family: 'Shrikhand', cursive;
     font-size: 40px;
-    text-align: left;
+    text-align: center;
     color: white;
     background-color: black;
+    padding: 0.5% 0.5% 0.5% 2%;
 }
 
 .mainpicture {
     float: right;
-    margin-top: -100px;
+    margin-top: -50px;
+    margin-right: 50px;
 }
 
 .secondtitle {
@@ -17,23 +19,28 @@
     text-align: left;
     color: black;
     margin-bottom: 0px;
+    padding-top: 5%;
+    padding-left: 2%;
 }
 
 .assignmentlist {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: black;
+    padding-left: 4%;
 }
 
 .mainfooter {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    text-align: center;
     background-color: black;
     color: white;
+    padding: 1% 1% 1% 1%;
 }
 
 a {
-    color: red;
+    color:blue;
     text-decoration: none;
 }
 
