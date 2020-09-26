@@ -6,14 +6,20 @@
 
 /* body rules here */
 body {
-    font-family: Verdana;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
+}
+
+.bodytitles {
+    font-family: 'Secular One', sans-serif;
 }
 
 /* header rules here*/
 header {
-    background-color: #17a8e4;
+    background-color: black;
     padding: 1rem 2%;
+    color: #d8970b;
+    font-family: 'Cormorant', serif;
 }
 
 header h1 {
@@ -36,6 +42,7 @@ nav ul {
 
 nav li {
     list-style-type: none;
+    color: white;
 }
 
 nav li.active {
@@ -52,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #444;
+    background-color: #d8970b;
 }
 
 /* main rules here */
@@ -62,7 +69,7 @@ main {
 }
 
 main h1 {
-    color: #17a8e4;
+    color: #d8970b;
 }
 
 main figure img {
@@ -70,19 +77,33 @@ main figure img {
 }
 
 main figure {
+    display: block;
     width: 100%;
-    margin: 0;
+    margin: auto;
+    padding: 8% 8% 8% 8%;
 }
 
-main figcaption {
-    text-align: center;
-    font-size: .8rem;
+section {
+    padding-top: 5%;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+.linksexternal {
+    text-decoration: none;
+    color: rgb(14, 130, 238);
+}
+
+.linksexternal:hover {
+    text-decoration: underline;
 }
 
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #17a8e4;
+    background-color: #d8970b;
 }
 
 .clearfix:after {
