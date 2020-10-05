@@ -73,7 +73,7 @@ img {
 }
 
 .even_buttons:hover {
-    background-color: #c22d4b;
+    background-color: #d4143b;
 }
 
 a {
@@ -92,7 +92,14 @@ a:hover {
     text-align: center;
     background-color: #2b2424;
     color: #FFFFFF;
-    padding: 5% 5% 5% 5%;
+    padding: 5%;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 

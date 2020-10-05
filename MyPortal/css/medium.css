@@ -1,4 +1,29 @@
 @media only screen and (min-width: 560px) {
 
-/* End of media query */
+    /*----------- HEADER ------------*/
+    h1 {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    /*----------- MAIN --------------*/
+    img {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .secondtitle {
+        font-size: 35px;
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    /*----------- FOOTER --------------*/
+    .mainfooter {
+        width: 100%;
+        position: absolute;
+        padding: 2%;
+    }
+
+    /* End of media query */
 }
