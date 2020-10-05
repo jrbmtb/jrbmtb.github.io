@@ -1,32 +1,100 @@
-@media only screen and (max-width: 600px) {
-
-    .maintitle {
-        font-size: 25px;
-        text-align: center;
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-
-    .secondtitle {
-        font-size: 23px;
-        text-align: center;
-        margin-bottom: 0px;
-        padding-top: 70%;
-    }
-
-    .mainpicture {
-        display: block;
-        margin: auto;
-        padding-right: 23%;
-        padding-top: 5%;
-    }
-
-    .assignmentlist {
-        padding-left: 12%;
-    }
-
-    .mainfooter {
-        text-align: center;
-        padding: 5% 5% 5% 5%;
-    }
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*----------- HEADER ------------*/
+header {
+    background-color: #2b2424;
+    width: 100%;
+    padding: 5%;
+}
+
+h1 {
+    font-family: 'Tinos', serif;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*----------- MAIN --------------*/
+img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.secondtitle {
+    font-family: 'Tinos', serif;
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+.assignment_buttons {
+    list-style-type: none;
+}
+
+.odd_buttons {
+    border: none;
+    background-color: #b3532e;
+    padding: 15px 22px;
+    width: auto;
+}
+
+.odd_buttons:hover {
+    background-color: #5f9ea0;
+}
+
+.even_buttons {
+    border: none;
+    background-color: #ffc400;
+    padding: 15px 22px;
+    width: auto;
+}
+
+.even_buttons:hover {
+    background-color: #c22d4b;
+}
+
+a {
+    color: #2b5ce2;
+    text-decoration: none;
+}
+a:hover {
+    color: #2b5ce2;
+    text-decoration: underline;
+}
+
+/*----------- FOOTER --------------*/
+.mainfooter {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: #2b2424;
+    color: #FFFFFF;
+    padding: 5% 5% 5% 5%;
+}
+
+
+
+
