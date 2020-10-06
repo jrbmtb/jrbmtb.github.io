@@ -7,13 +7,15 @@
     <meta name="author" content="JRB">
 
     <!-- This file was build by Jacobo Rendon  -->
-    <title>Trusty Frog</title>
+    <title>Home | Trusty Frog</title>
+    <link rel="icon" href="images/resized_logo.png" type="image/icon type">
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
-
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
@@ -31,19 +33,21 @@
 <body>
     <!-- HEADER HERE -->
     <header class="clearfix">
-        <img src="images/resized_logo.png" alt="Trusty Frog Logo">
-        <h1>Trusty Frog</h1>
-        <h2>Weather stuff for outdoorsy folks</h2>
+        <figure class="header_logo">
+            <img src="images/resized_logo.png" alt="Trusty Frog Logo">
+        </figure>
+        <h1 class="top_heading">TRUSTY FROG</h1>
+        <h2 class="top_heading">Weather stuff for outdoorsy folks</h2>
         <!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776</button>
-        <ul id="primaryNav" class="hide">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776</button>
+            <ul id="primaryNav" class="hide">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- CONTENT HERE -->

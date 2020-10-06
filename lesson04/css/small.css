@@ -5,9 +5,39 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /********** HEADER ***********/
+header {
+    background-color: #29ABE2;
+    padding-top: .2rem;
+    padding-bottom: .5rem;
+}
+
+.header_logo {
+    margin: .5rem;
+}
+
+.header_logo img {
+    width: 20%;
+    float: left;
+    margin-right: .5rem;
+}
+
+.top_heading {
+    float: left;
+    margin: 0%;
+    font-family: 'Secular One', sans-serif;
+}
+
+header h1 {
+    font-size: 1.4rem;
+}
+header h2 {
+    font-size: .85rem;
+}
 
 nav button {
-    margin: .2rem 2%;
+    margin-top: -1rem;
+    margin-right: .5rem;
+    padding-top: 0%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
@@ -16,7 +46,7 @@ nav button {
 }
 
 nav {
-    font-family: Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav ul {
@@ -34,8 +64,15 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
+    background-color: #1b5872;
     color: #fff;
+    padding-top: .8rem;
+    margin-top: 4rem;
+    border-top: 0px;
+}
+
+nav ul:last-child {
+    padding-bottom: .3rem;
 }
 
 nav ul li a:hover {
