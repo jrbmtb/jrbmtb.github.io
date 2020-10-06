@@ -1,8 +1,15 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /********** HEADER ***********/
 header {
@@ -30,6 +37,7 @@ header {
 header h1 {
     font-size: 1.4rem;
 }
+
 header h2 {
     font-size: .85rem;
 }
@@ -60,7 +68,7 @@ nav ul li a {
     padding: .8rem 2%;
     text-decoration: none;
     color: #000000;
-    border-top: 1px solid rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 nav ul li.active a {
@@ -76,11 +84,26 @@ nav ul:last-child {
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav ul.hide {
     display: none;
+}
+
+/********** MAIN ***********/
+main h1 {
+    font-family: 'Secular One', sans-serif;
+    margin: .5rem;
+    padding-top: .5rem;
+}
+.main_banner {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main_banner img {
+    width: 100%;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -88,4 +111,4 @@ nav ul.hide {
     content: "";
     display: table;
     clear: both;
-  }
+}
