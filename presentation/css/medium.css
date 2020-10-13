@@ -1,0 +1,15 @@
+/* 35em = 560px */
+@media only screen and (min-width: 35em) {
+
+    header h1 {
+        text-align: left;
+    }
+
+    main p {
+        font-size: 1.1rem;
+    }
+
+    footer p {
+        font-size: 1.3rem;
+    }
+} /* End of media query*/

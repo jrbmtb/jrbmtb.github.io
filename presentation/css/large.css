@@ -1,0 +1,7 @@
+/* 64em = 1028px */
+@media only screen and (min-width: 64em) {
+
+    header h1 {
+        color: white;
+    }
+} /* End of media query*/
