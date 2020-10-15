@@ -96,6 +96,33 @@ nav ul.hide {
 }
 
 /*--------------------- MAIN ---------------------*/
+
+/********** Pop-up message **********/
+div#message {
+    background-color: #fffb00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+    border: #000000 solid 2px;
+}
+
+div#message em {
+    color: #ff0000;
+    font-family: "Secular One", sans-serif;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+/************************************/
+
 .heading {
     font-family: "Secular One", sans-serif;
     font-size: 1rem;
