@@ -269,6 +269,11 @@ div.hideme {
     margin: .5rem;
 }
 
+.google-map h2 {
+    font-family: "Secular One", sans-serif;
+    color: #00a99d;
+}
+
 .mapouter {
     position: relative;
     text-align: right;
