@@ -265,7 +265,23 @@ div.hideme {
 
 /************ Google map ************/
 
+.google-map {
+    margin: .5rem;
+}
 
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 294px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 294px;
+    width: 100%;
+}
 
 /************************************/
 .placeholder {
