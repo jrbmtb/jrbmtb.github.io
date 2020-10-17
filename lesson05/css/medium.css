@@ -21,4 +21,18 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .8rem 1rem;
     }
+
+    /********* Five Day Forecast ********/
+
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    section.forecast div {
+        text-align: center;
+    }
+
+    /************************************/
+
 }

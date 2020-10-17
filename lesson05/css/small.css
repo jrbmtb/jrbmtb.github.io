@@ -179,6 +179,14 @@ div.hideme {
 
 /************************************/
 
+/********* Five Day Forecast ********/
+
+section.forecast {
+    display: none;
+}
+
+/************************************/
+
 /********** article section *********/
 
 .main-article {
