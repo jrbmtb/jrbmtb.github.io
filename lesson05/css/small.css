@@ -194,6 +194,7 @@ section.forecast {
 }
 
 .main-article h2 {
+    margin-top: 2rem;
     font-family: "Secular One", sans-serif;
     color: #00a99d;
 }
@@ -222,6 +223,7 @@ section.forecast {
 }
 
 .contact-section h2 {
+    margin-top: 2rem;
     font-family: "Secular One", sans-serif;
     color: #00a99d;
 }
