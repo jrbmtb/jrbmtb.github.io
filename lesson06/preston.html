@@ -76,17 +76,18 @@
 
         <div class="hero-div">
             <figure class="hero-image">
-                <img src="images/land.jpeg" alt="landscape" sizes="50vw"
-                srcset="images/land-400.jpg 400w,
+                <img src="images/land.jpeg" alt="landscape" sizes="50vw" srcset="images/land-400.jpg 400w,
                         images/land-800.jpg 800w,
                         images/land-1200.jpg 1200w">
             </figure>
             <section class="weather-summary">
                 <h3>Weather Summary</h3>
                 <hr>
-                <p id="first-p">&#8679; High: <em>76°F</em></p>
-                <p id="second-p">&#8681; Low: <em>69°F</em></p>
-                <p id="third-p">Wind: <em>°F</em></p>
+                <p id="first-p">High: <em><span id="high-temp">34</span>&deg;F</em></p>
+                <p id="second-p">Low: <em><span id="low-temp">25</span>&deg;F</em></p>
+                <p id="third-p">Wind Speed: <em><span id="speed">20</span> mph</em></p>
+                <p id="fourth-p">Current Temperature: <em><span id="temp">30</span>&deg;F</em></p>
+                <p id="chill">Message</p>
             </section>
         </div>
 
@@ -175,7 +176,20 @@
     <footer>
         <p>&copy; 2020 | Trusty Frog Co. | Made with &#10084; by JRB</p>
         <script src="js/script.js"></script>
+        <script src="js/windchill.js"></script>
     </footer>
+
+    <!-- Web Font Loader -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+        WebFont.load({
+            google: {
+                families: [
+                    'Roboto',
+                    'Secular One'
+                ]
+            }
+        });
+    </script>
 </body>
 
 </html>

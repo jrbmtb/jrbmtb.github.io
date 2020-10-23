@@ -25,3 +25,5 @@ var yyyy = currentDate.getFullYear();
 
 var format = { weekday: 'long', day: 'numeric', year: 'numeric', month: 'long'};
 document.write(currentDate.toLocaleDateString('en', format));
+
+

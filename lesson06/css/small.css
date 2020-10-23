@@ -158,10 +158,6 @@ div.hideme {
     margin-bottom: .4rem;
 }
 
-#third-p:before {
-    content: '\224B  ';
-}
-
 .weather-summary hr {
     border: #000000 solid 1px;
     margin-top: 0%;
@@ -175,6 +171,11 @@ div.hideme {
 .weather-summary em {
     color: #000000;
     text-shadow: 0 0 2px #4cf000;
+}
+
+#chill {
+    color: #000000;
+    text-shadow: 0 0 2px #00c0f0;
 }
 
 /************************************/
