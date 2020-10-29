@@ -75,11 +75,12 @@
         </div>
 
         <div class="hero-div">
-            <figure class="hero-image">
-                <img src="images/land.jpeg" alt="landscape" sizes="50vw" srcset="images/land-400.jpg 400w,
-                        images/land-800.jpg 800w,
-                        images/land-1200.jpg 1200w">
-            </figure>
+            <picture class="hero-image">
+                <source media="(max-width: 400px)" srcset="images/land-400.jpg">
+                <source media="(max-width: 800px)" srcset="images/land-800.jpg">
+                <source media="(max-width: 1200px)" srcset="images/land-1200.jpg">
+                <img src="images/land.jpeg" alt="landscape">
+            </picture>
             <section class="weather-summary">
                 <h3>Weather Summary</h3>
                 <hr>
@@ -180,7 +181,8 @@
     </footer>
 
     <!-- Web Font Loader -->
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
         WebFont.load({
             google: {
                 families: [
