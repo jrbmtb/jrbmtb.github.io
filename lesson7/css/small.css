@@ -331,6 +331,19 @@ footer p {
     clear: both;
 }
 
+.main-gallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.main-gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+main .hola {
+    color: rgb(141, 93, 22);
+}
+
 
 
 
