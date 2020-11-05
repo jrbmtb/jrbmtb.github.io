@@ -1,6 +1,7 @@
 table {
     box-shadow: 5px 5px 10px #628ca6;
 }
+
 table,
 th,
 td {
@@ -29,6 +30,10 @@ thead th {
 tbody tr th {
     background-color: #628ca6;
     color: #ffffff;
+}
+
+tr td span {
+    font-style: italic;
 }
 
 /*-- The only nth-child() pseudo class used --*/
