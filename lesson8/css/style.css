@@ -1,0 +1,44 @@
+table,
+th,
+td {
+    border: 1px solid rgb(148, 139, 139);
+    border-collapse: collapse;
+    background-color: #e7ffed;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+thead th,
+tfoot td {
+    background-color: #7fb9c2;
+}
+
+thead th {
+    font-size: 25px;
+}
+
+tbody tr th {
+    background-color: #628ca6;
+    color: #ffffff;
+}
+
+/*-- The only nth-child() pseudo class used --*/
+tr:nth-child(5) td:nth-child(3) {
+    background-color: #628ca6;
+    color: #ffffff;
+}
+
+/*-- The only class used --*/
+.with-back-color {
+    background-color: #e7f0ed;
+}
+
+tfoot tr {
+    font-size: 10px;
+}
