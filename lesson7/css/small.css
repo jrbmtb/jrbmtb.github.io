@@ -340,8 +340,11 @@ footer p {
     transition: filter 0.5s;
 }
 
-main .hola {
-    color: rgb(141, 93, 22);
+.hola {
+    color: red;
+    font-family: "Secular One", sans-serif;
+    font-size: 1rem;
+    margin: .5rem;
 }
 
 
