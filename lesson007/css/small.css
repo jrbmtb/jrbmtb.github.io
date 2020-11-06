@@ -322,6 +322,16 @@ footer p {
     margin-bottom: 0;
 }
 
+/*------------------ GALLERY PAGE ------------------*/
+.main-gallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.main-gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
