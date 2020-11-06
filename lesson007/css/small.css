@@ -139,7 +139,7 @@ div.hideme {
     margin: 0;
 }
 
-.hero-image img{
+.hero-image img {
     width: 100%;
 }
 
@@ -150,7 +150,7 @@ div.hideme {
     padding-left: 1rem;
     padding-right: 1rem;
     line-height: .5rem;
-    background-color: rgba(251, 176, 59, .7); 
+    background-color: rgba(251, 176, 59, .7);
 }
 
 .weather-summary h3 {
@@ -323,14 +323,34 @@ footer p {
 }
 
 /*------------------ GALLERY PAGE ------------------*/
+.main-gallery h1 {
+    font-family: "Secular One", sans-serif;
+}
+
 .main-gallery img[data-src] {
     filter: blur(0.2em);
-    width: 100%;
 }
 
 .main-gallery img {
     filter: blur(0em);
     transition: filter 0.5s;
+}
+
+div.img-container {
+    width: 80%;
+    background-color: #b8b8bd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.text-container {
+    text-align: center;
+    padding: 10px 20px;
+    line-height: 7px;
+}
+
+.align-img img {
+    width: 100%;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
