@@ -150,7 +150,7 @@ div.hideme {
     padding-left: 1rem;
     padding-right: 1rem;
     line-height: .5rem;
-    background-color: rgba(251, 176, 59, .7);
+    background-color: #fbb03bb3;
 }
 
 .weather-summary h3 {
@@ -341,6 +341,7 @@ div.img-container {
     background-color: #b8b8bd;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 div.text-container {
@@ -351,6 +352,15 @@ div.text-container {
 
 .align-img img {
     width: 100%;
+}
+
+.img-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-link:hover {
+    color: #88d5f7;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
