@@ -7,7 +7,7 @@
     <meta name="author" content="JRB">
 
     <!-- This file was build by Jacobo Rendon  -->
-    <title>Gallery | Trusty Frog</title>
+    <title>Storm Center | Trusty Frog</title>
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
@@ -63,7 +63,84 @@
     </div>
     <!-- CONTENT HERE -->
     <main>
-        
+        <form method="get" action="thanks.html">
+            
+            <!-- User information -->
+            <fieldset>
+                <legend>User Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z]{5,100}"
+                        required></label>
+                <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{5,100}"
+                        required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@myemail.com"></label>
+                <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+                <label class="top">Zip Code* <input type="number" name="zip" required></label>
+            </fieldset>
+
+            <!-- Storm details -->
+            <fieldset>
+                <legend>Storm Details</legend>
+                <label class="top">Storm Date <input type="date" name="completeDate"></label>
+                
+                <!-- Storm type -->
+                <label class="top">Storm Type
+                    <input list="storms" name="storm type">
+                    <datalist id="storms">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                </label>
+
+                <!-- Storm severity -->
+                <label class="top" for="rating">Storm Severity (from 1 to 10)
+                    <input type="range" id="rating" value="10" min="0" max="10" step="1" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">1</span>
+                </label>
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+
+                <!-- Storm region -->
+                <label class="top">Storm Region
+                    <select name="subject">
+                        <option value="">Select Region... &#9662;</option>
+                        <option value="preston">Preston</option>
+                        <option value="springs">Soda Springs</option>
+                        <option value="haven">Fish Haven</option>
+                    </select>
+                </label>
+
+                <!-- User in-danger level -->
+                <div>User In-Danger Level</div>
+                <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="audience" value="no"> No</label>
+
+            </fieldset>
+
+            <!-- Additional Information -->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <textarea id="review" name="review" rows="5" cols="50"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Report Storm" class="submitBtn">
+        </form>
+
     </main>
 
     <!-- FOOTER HERE -->
