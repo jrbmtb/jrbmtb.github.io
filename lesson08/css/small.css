@@ -436,6 +436,11 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+.thanks-message {
+    font-family: "Secular One", sans-serif;
+    color: #00a99d;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
