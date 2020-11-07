@@ -368,23 +368,27 @@ div.text-container {
 /*----------- FORM --------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 2px solid #00a99d;
     border-radius: 10px;
     padding: .5rem 2%;
+    font-family: 'Roboto', sans-serif;
 }
 
 form legend {
-    color: #445ba9;
+    color: #00a99d;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-size: 1.2rem;
+    font-family: "Secular One", sans-serif;
 }
 
 form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+    color: #29abe2;
+    font-size: 1rem;
+    font-family: "Secular One", sans-serif;
 }
 
 form label.top input,
@@ -415,6 +419,13 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ratingvalue {
+    font-size: 1.5rem;
+    color: red;
 }
 
 form label.top input:required {
