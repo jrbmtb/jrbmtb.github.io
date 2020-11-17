@@ -124,11 +124,41 @@
     }
 
     /*------------------ HOME PAGE ------------------*/
-
     .cards section {    
         display: grid;
-        grid-template-columns: repeat(2, 200px);
+        grid-template-columns: repeat(2, 250px);
         grid-template-rows: repeat(5, 30px);
+        padding: 15px;
+    }
+
+    .cards section:nth-child(odd) img {
+        grid-column: 1;
+        margin-top: 0;
+    }
+    
+    .cards section:nth-child(odd) h2 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .cards section:nth-child(odd) h4 {
+        grid-column: 2;
+        grid-row: 2/3;
+    }
+
+    .cards section:nth-child(odd) p:nth-child(3) {
+        grid-column: 2;
+        grid-row: 3/4;
+    }
+
+    .cards section:nth-child(odd) p:nth-child(4) {
+        grid-column: 2;
+        grid-row: 4/5;
+    }
+
+    .cards section:nth-child(odd) p:nth-child(5) {
+        grid-column: 2;
+        grid-row: 5;
     }
 
     .cards section h2 {
@@ -141,6 +171,25 @@
         grid-column: 1;
         grid-row: 2/3;
         margin-top: 5px;
+    }
+
+    .cards p:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3/4;
+    }
+
+    .cards p:nth-child(4) {
+        grid-column: 1;
+        grid-row: 4/5;
+    }
+
+    .cards p:nth-child(5) {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .cards img {
+        margin-top: 0;
     }
 
 } /* end medium */

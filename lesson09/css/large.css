@@ -117,4 +117,16 @@
         padding: .4rem 0;
     }
 
+    /*------------------ HOME PAGE ------------------*/
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        grid-template-rows: repeat(3, 500px);
+    }
+
+    .cards section {    
+        display: flex;
+        flex-direction: column;
+    }
+
 } /* end large */
