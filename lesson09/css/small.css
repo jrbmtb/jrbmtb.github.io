@@ -446,6 +446,51 @@ form label.top input:required:valid {
     color: #00a99d;
 }
 
+/*------------------ HOME PAGE ------------------*/
+
+.cards section {
+    background-color: #00a99d;
+    padding: .5rem;
+    padding-bottom: 2rem;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 50px;
+    border: 12px inset #000000;
+}
+
+.cards h2 {
+    font-family: "Secular One", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.cards h4 {
+    font-family: "Secular One", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.cards p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 6px;
+}
+
+.cards img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 2rem;
+    box-shadow: 10px 10px 20px 0 rgb(0, 0, 0);
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
