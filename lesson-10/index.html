@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="JRB">
+
+    <title>Home | Trusty Frog</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <header>
+        <div class="flex-container">
+            <figure class="header_logo">
+                <img src="images/resized_logo.png" alt="Trusty Frog Logo">
+            </figure>
+
+            <div class="sub-flex-container">
+                <h1 class="top_heading">TRUSTY FROG</h1>
+                <h2 class="top_heading">Weather stuff for outdoorsy folks</h2>
+            </div>
+        </div>
+        <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li class="active"><a href="https://jrbmtb.github.io/lesson-10/index.html">Home</a></li>
+                <li><a href="https://jrbmtb.github.io/lesson-10/preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="https://jrbmtb.github.io/lesson-10/stormcenter.html">Storm Center</a></li>
+                <li><a href="https://jrbmtb.github.io/lesson-10/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="heading">
+            <h1>Welcome!</h1>
+        </div>
+
+        <picture class="hero-image">
+            <source media="(max-width: 400px)" srcset="images/land-400.jpg">
+            <source media="(max-width: 800px)" srcset="images/land-800.jpg">
+            <source media="(max-width: 1200px)" srcset="images/land-1200.jpg">
+            <img src="images/land.jpeg" alt="landscape">
+        </picture>
+
+        <div class="main-article">
+            <p>Lorem ipsum dolor sit, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+        </div>
+
+        <!-- CITY CARDS JSON FILE -->
+        <div class="cards"></div>
+
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+
+            <section class="email">
+                <h3>Email: </h3>
+                <p>contact@yoururl.com</p>
+            </section>
+
+            <section class="address">
+                <h3>Address: </h3>
+                <p>The Weather Center</p>
+                <p>123 Main Street.</p>
+                <p>Franklin, MI 87654</p>
+            </section>
+
+            <section class="phone">
+                <h3>Phone: </h3>
+                <p>(801) 555-1234</p>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <p>&copy; 2020 | Trusty Frog Co. | Made with &#10084; by JRB</p>
+        <script src="js/script.js"></script>
+        <script src="js/city-card.js"></script>
+    </footer>
+    <footer>
+        <a href="home-wireframes.html" target="_blank"><p>See the wireframes!</p></a>
+    </footer>
+
+    <!-- Web Font Loader -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Roboto',
+                    'Secular One'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
