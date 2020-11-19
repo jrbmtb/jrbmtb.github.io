@@ -187,8 +187,49 @@ div.hideme {
 
 /********* Five Day Forecast ********/
 
-section.forecast {
-    display: none;
+.forecast {
+    margin-top: 2rem;
+    font-family: "Secular One", sans-serif;
+    color: #00a99d;
+}
+
+#weatherforecast {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#weatherforecast div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #383838;
+    background-color: #a8ece8;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#weatherforecast span:nth-child(1),
+#weatherforecast span:nth-child(3),
+#weatherforecast div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weatherforecast span:nth-child(1) {
+    font-family: "Secular One", sans-serif;
+    font-size: 2rem;
+}
+
+#weatherforecast span:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+#weatherforecast div img {
+    width: 25%;
 }
 
 /************************************/
