@@ -43,10 +43,15 @@ fetch(apiURL)
               let theIcon = document.createElement("img");
               theIcon.src = iconPath;
 
+              let highTemp
+
               let theDay = document.createElement("div");
               theDay.appendChild(dayName);
               theDay.appendChild(theIcon);
               theDay.appendChild(theTemp);
+
+              let theSummary = document.createElement("section");
+
 
               document.getElementById('weatherforecast').appendChild(theDay);
             }

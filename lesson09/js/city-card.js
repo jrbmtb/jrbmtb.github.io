@@ -25,8 +25,10 @@ fetch(requestURL)
         p1.textContent = 'Year Founded: ' + towns[i].yearFounded; //Year founded
         p2.textContent = 'Population: ' + towns[i].currentPopulation; //Population
         p3.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall; //Avg rainfall
-        img.setAttribute('src', towns[i].photo, alt = towns[i].name); //Town photo
+        img.setAttribute('src', "images/" + towns[i].photo);
+        img.setAttribute('alt', "Picture of " + towns[i].name); //Town photo
 
+        if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
         card.appendChild(h2); //Town name
         card.appendChild(h4); //Motto
         card.appendChild(p1); //Year founded
@@ -34,6 +36,6 @@ fetch(requestURL)
         card.appendChild(p3); //Avg rainfall
         card.appendChild(img); //Town photo
 
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.cards').appendChild(card);}
      }
 });
