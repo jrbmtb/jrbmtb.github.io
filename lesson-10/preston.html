@@ -81,14 +81,14 @@
                 <source media="(max-width: 1200px)" srcset="images/land-1200.jpg">
                 <img src="images/land.jpeg" alt="landscape">
             </picture>
-            <section class="weather-summary">
+            <section id="weather-summary">
                 <h3>Weather Summary</h3>
                 <hr>
-                <p id="first-p">High: <em><span id="high-temp">34</span>&deg;F</em></p>
-                <p id="second-p">Low: <em><span id="low-temp">25</span>&deg;F</em></p>
-                <p id="third-p">Wind Speed: <em><span id="speed">20</span> mph</em></p>
-                <p id="fourth-p">Current Temperature: <em><span id="temp">30</span>&deg;F</em></p>
-                <p id="chill">Message</p>
+                <p id="current-condition"></p>
+                <p id="current-temp"></p>
+                <p id="wind-chill"></p>
+                <p id="humidity"></p>
+                <p id="wind-speed"></p>
             </section>
         </div>
 
@@ -146,7 +146,7 @@
     <footer>
         <p>&copy; 2020 | Trusty Frog Co. | Made with &#10084; by JRB</p>
         <script src="js/script.js"></script>
-        <script src="js/windchill.js"></script>
+        <!--<script src="js/windchill.js"></script>-->
         <script src="js/forecast.js"></script>
     </footer>
 

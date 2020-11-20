@@ -148,7 +148,7 @@ div.hideme {
     width: 100%;
 }
 
-.weather-summary {
+#weather-summary {
     position: absolute;
     top: .5rem;
     left: .5rem;
@@ -158,29 +158,19 @@ div.hideme {
     background-color: #fbb03bb3;
 }
 
-.weather-summary h3 {
+#weather-summary h3 {
     font-family: "Secular One", sans-serif;
     margin-bottom: .4rem;
 }
 
-.weather-summary hr {
+#weather-summary hr {
     border: #000000 solid 1px;
     margin-top: 0%;
 }
 
-.weather-summary p {
+#weather-summary p {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}
-
-.weather-summary em {
-    color: #000000;
-    text-shadow: 0 0 2px #4cf000;
-}
-
-#chill {
-    color: #000000;
-    text-shadow: 0 0 2px #00c0f0;
 }
 
 /************************************/

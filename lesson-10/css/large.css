@@ -40,7 +40,7 @@
         margin-right: 25px;
         padding: 10px 30px 15px 30px
     }
-    
+
     /************************************/
 
     /*------------------ GALLERY PAGE ------------------*/
@@ -132,7 +132,7 @@
     .cards {
         display: grid;
         grid-template-columns: repeat(3, 350px);
-        grid-template-rows: repeat(3, 500px);
+        grid-template-rows: repeat(1, 500px);
     }
 
     .cards section {    
