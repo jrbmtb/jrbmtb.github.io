@@ -184,6 +184,11 @@ div.hideme {
     color: #00a99d;
 }
 
+#forecast-p {
+    margin: .5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 #weatherforecast {
     display: flex;
     flex-direction: column;
