@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="Fill Me In">
     <meta name="author" content="JRB">
 
-    <title>Home | Trusty Frog</title>
+    <!-- This file was build by Jacobo Rendon  -->
+    <title>Soda Springs | Trusty Frog</title>
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
@@ -23,6 +25,14 @@
     <link href="css/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
     <link href="css/large.css" rel="stylesheet">
+
+
+    <!-- Icons 
+    Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+    Iconos diseñados por <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+    Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+    Iconos diseñados por <a href="https://www.flaticon.es/autores/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+    -->
 
 </head>
 
@@ -43,9 +53,9 @@
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-                <li class="active"><a href="https://jrbmtb.github.io/lesson11/index.html">Home</a></li>
+                <li><a href="https://jrbmtb.github.io/lesson11/index.html">Home</a></li>
                 <li><a href="https://jrbmtb.github.io/lesson11/preston.html">Preston</a></li>
-                <li><a href="https://jrbmtb.github.io/lesson11/sodasprings.html">Soda Springs</a></li>
+                <li class="active"><a href="https://jrbmtb.github.io/lesson11/sodasprings.html">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="https://jrbmtb.github.io/lesson11/stormcenter.html">Storm Center</a></li>
                 <li><a href="https://jrbmtb.github.io/lesson11/gallery.html">Gallery</a></li>
@@ -53,29 +63,53 @@
         </nav>
     </header>
 
+    <!-- CONTENT HERE -->
     <main>
-
-        <div class="heading">
-            <h1>Welcome!</h1>
+        <div id="message">
+            <p>Saturday = Preston <em>Pancakes</em> in the Park! <em>9:00 a.m. Saturday</em> at the city park pavilion.
+            </p>
         </div>
 
-        <picture class="hero-image">
-            <source media="(max-width: 400px)" srcset="images/land-400.jpg">
-            <source media="(max-width: 800px)" srcset="images/land-800.jpg">
-            <source media="(max-width: 1200px)" srcset="images/land-1200.jpg">
-            <img src="images/land.jpeg" alt="landscape">
-        </picture>
+        <div class="heading">
+            <h1>Soda Springs</h1>
+        </div>
+
+        <div class="hero-div">
+            <picture class="hero-image">
+                <source media="(max-width: 400px)" srcset="images/land-400.jpg">
+                <source media="(max-width: 800px)" srcset="images/land-800.jpg">
+                <source media="(max-width: 1200px)" srcset="images/land-1200.jpg">
+                <img src="images/land.jpeg" alt="landscape">
+            </picture>
+            <section id="weather-summary">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p id="current-condition"></p>
+                <p id="current-temp"></p>
+                <p id="wind-chill"></p>
+                <p id="humidity"></p>
+                <p id="wind-speed"></p>
+            </section>
+        </div>
+
+        <h2 class="forecast">Five-day Forecast</h2>
+        <div id="weatherforecast"></div>
 
         <div class="main-article">
+            <h2>Main Article</h2>
             <p>Lorem ipsum dolor sit, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
                 ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
                 fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-        </div>
+                vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
+                vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+                viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.</p>
 
-        <!-- CITY CARDS JSON FILE -->
-        <div class="cards"></div>
+            <figure class="article-image">
+                <img src="images/articleimg.jpg" alt="storm">
+            </figure>
+        </div>
 
         <div class="contact-section">
             <h2>Contact Us</h2>
@@ -98,16 +132,22 @@
             </section>
         </div>
 
+        <div class="google-map">
+            <h2>Map</h2>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=soda%20springs%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe><a
+                        href="https://www.embedgooglemap.net"></a></div>
+            </div>
+        </div>
     </main>
 
     <!-- FOOTER HERE -->
     <footer>
         <p>&copy; 2020 | Trusty Frog Co. | Made with &#10084; by JRB</p>
         <script src="js/script.js"></script>
-        <script src="js/city-card.js"></script>
-    </footer>
-    <footer>
-        <a href="home-wireframes.html" target="_blank"><p>See the wireframes!</p></a>
+        <!--<script src="js/windchill.js"></script>-->
+        <script src="js/sodaforecast.js"></script>
     </footer>
 
     <!-- Web Font Loader -->
