@@ -51,7 +51,7 @@ fetch(apiURL)
               document.getElementById('weatherforecast').appendChild(theDay);
 
               //Get the data for the weather summary on the top banner
-              document.getElementById('current-condition').textContent = "Currently: " + weatherInfo.list[i].weather.description;
+              document.getElementById('current-condition').textContent = "Currently: " + weatherInfo.list[i].weather[i].description;
               document.getElementById('current-temp').textContent = "High: " + weatherInfo.list[i].main.temp + "\xB0" + "F";
               
               //-------------------------------------MATH FOR WINDCHILL-----------------------------------------//
@@ -63,7 +63,7 @@ fetch(apiURL)
               windChill = Math.round(windChill);
               
               if(theTemp <= 50 && weatherInfo.list[i].wind.speed > 3) {
-                  document.getElementById("wind-chill").textContent = "Wind Chill: "+windChill+"\xB0F";
+                  document.getElementById("wind-chill").textContent = "Wind Chill: " + windChill + "\xB0F";
               } else {
                   document.getElementById("wind-chill").textContent = "No wind chill today!";
               };
