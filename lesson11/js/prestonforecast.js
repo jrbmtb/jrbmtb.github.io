@@ -51,7 +51,7 @@ fetch(apiURL)
               document.getElementById('weatherforecast').appendChild(theDay);
 
               //Get the data for the weather summary on the top banner
-              document.getElementById('current-condition').textContent = "Currently: " + weatherInfo.list[i].weather[i].description;
+              document.getElementById('current-condition').textContent = "Currently: ";
               document.getElementById('current-temp').textContent = "High: " + weatherInfo.list[i].main.temp + "\xB0" + "F";
               
               //-------------------------------------MATH FOR WINDCHILL-----------------------------------------//
