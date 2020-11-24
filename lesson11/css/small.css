@@ -178,6 +178,7 @@ div.hideme {
 /********* Five Day Forecast ********/
 
 .forecast {
+    margin: .5rem;
     margin-top: 2rem;
     font-family: "Secular One", sans-serif;
     color: #00a99d;
@@ -188,6 +189,7 @@ div.hideme {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
+    padding-bottom: 40px;
 }
 
 #weatherforecast div{
@@ -250,12 +252,29 @@ div.hideme {
 }
 
 /************************************/
+/*********** main events ************/
+.events {
+    margin: .5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.events h1 {
+    font-family: "Secular One", sans-serif;
+    color: #00a99d;
+}
+
+.events p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+/************************************/
 /********** contact section *********/
 
 .contact-section {
-    position: relative;
     margin: .5rem;
+    margin-bottom: 50px;
     height: 19rem;
 }
 
@@ -267,53 +286,39 @@ div.hideme {
 
 .contact-section h3 {
     font-family: "Secular One", sans-serif;
+    margin-top: 0;
 }
 
 .contact-section p {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .address {
-    position: absolute;
-    top: 3rem;
-    line-height: .5rem;
-    padding-right: 5rem;
-    padding-left: 1rem;
-    padding-bottom: 1.2rem;
     background-color: #fbb03b;
+    padding: 10px 15px;
 }
 
 .phone {
-    position: absolute;
-    top: 4rem;
-    right: 2rem;
-    line-height: .5rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 4rem;
     background-color: #29abe2;
+    padding: 10px 15px;
 }
 
 .email {
-    position: absolute;
-    top: 8rem;
-    right: .5rem;
-    line-height: .5rem;
-    padding-top: 4rem;
-    padding-right: 1rem;
-    padding-left: 4rem;
-    padding-bottom: 2rem;
     color: #ffffff;
     background-color: #333333;
+    padding: 10px 15px;
 }
 
 /************************************/
 
 /************ Google map ************/
 
-.google-map {
+div.google-map {
     margin: .5rem;
+    padding-top: 30px;
 }
 
 .google-map h2 {
