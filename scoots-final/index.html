@@ -30,37 +30,54 @@
             <figure class="header_logo">
                 <img src="images/scoots-logo-resized.png" alt="Scoots Logo">
             </figure>
-        </div>
 
-        <div class="container clearfix">
-            <div class="nav-bar">
-                <button onclick="myFunction(this)">
-                    <div class="bar bar-one"></div>
-                    <div class="bar bar-two"></div>
-                    <div class="bar bar-three"></div>
-                </button>
+            <div class="container clearfix">
+                <div class="nav-bar">
+                    <button onclick="myFunction(this)">
+                        <div class="bar bar-one"></div>
+                        <div class="bar bar-two"></div>
+                        <div class="bar bar-three"></div>
+                    </button>
+                </div>
+                <ul id="navigation" class="hide">
+                    <li class="list active"><a href="https://jrbmtb.github.io/scoots-final/index.html">Home</a></li>
+                    <li class="list"><a href="#">Rentals</a></li>
+                    <li class="list"><a href="#">Reservations</a></li>
+                    <li class="list"><a href="#">Tours</a></li>
+                    <li class="list"><a href="#">Contact</a></li>
+                </ul>
             </div>
-            <ul id="navigation" class="hide">
-                <li class="list active"><a href="https://jrbmtb.github.io/scoots-final/index.html">Home</a></li>
-                <li class="list"><a href="#">Rentals</a></li>
-                <li class="list"><a href="#">Reservations</a></li>
-                <li class="list"><a href="#">Tours</a></li>
-                <li class="list"><a href="#">Contact</a></li>
-            </ul>
         </div>
-        <!-- NAVIGATION HERE
-        <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Rentals</a></li>
-                <li><a href="#">Reservations</a></li>
-                <li><a href="#">Tours</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav> -->
     </header>
 
+    <main>
+        <div class="call-container">
+            <h1>Let's Explore!</h1>
+            <p>There is a world of fun and adventure out there. What are you waiting to have the time of your life?</p>
+            <a href="#" class="call-button">RESERVE NOW</a>
+        </div>
+
+        <div class="option rental-one">
+            <img src="images/scooter-400.jpg">
+            <p class="rental-attribute">Photo by Ruslan Bardash on Unsplash</p>
+            <p>Fast, versatile, and easy to drive; ideal for short tours</p>
+            <a href="#" class="rent-button">RENT A SCOOTER</a>
+        </div>
+
+        <div class="option rental-two">
+            <img src="images/atv-400.jpg">
+            <p class="rental-attribute">Photo by Grant Durr on Unsplash</p>
+            <p>Pure power, ready for the funniest adventures, or just to play around</p>
+            <a href="#" class="rent-button">RENT AN ATV</a>
+        </div>
+
+        <div class="option rental-three">
+            <img src="images/jeep-400.jpg">
+            <p class="rental-attribute">Photo by Sebastian Canaves on Unsplash</p>
+            <p>Ideal if you need to carry stuff around, or just if you want the most capable machine</p>
+            <a href="#" class="rent-button">RENT A JEEP</a>
+        </div>
+    </main>
 
     <!-- Web Font Loader -->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
@@ -69,7 +86,7 @@
             google: {
                 families: [
                     'Roboto',
-                    'Skranji'
+                    'Lobster'
                 ]
             }
         });

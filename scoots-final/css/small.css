@@ -23,16 +23,15 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: #ffffff;
+    border-bottom: 2px solid #000;
 }
 
-.header_logo {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+figure.header_logo {
+    margin-left: 10px;
 }
 
 .header_logo img {
-    width: 90px;
+    width: 60px;
 }
 
 /*--------------------- NAVIGATION ---------------------*/
@@ -42,7 +41,7 @@ body {
 }
 
 .bar {
-    background-color: #ffffff;
+    background-color: #000000;
     width: 50px;
     height: 6px;
     margin-top: 10px;
@@ -54,17 +53,18 @@ body {
 }
 
 button {
+    margin-top: -.5rem;
+    margin-right: -13rem;
+    padding-top: 0%;
     background-color: transparent;
     border: none;
     cursor: pointer;
+    float: right;
 }
 
 .nav-bar {
-    background-color: black;
-    margin: 0 -9999rem;
-    padding: 0.5rem 9999rem;
     padding-top: 3px;
-    background-color: #000000;
+    background-color: transparent;
 }
 
 .change .bar-one {
@@ -102,7 +102,7 @@ button {
 
 @keyframes move-left {
     0% {
-        transform: translate(-50%, 0%);
+        transform: translate(50%, 0%);
     }
 
     25% {
@@ -119,12 +119,99 @@ button {
     background-color: #000000;
     margin-left: 0;
     margin-top: 0;
-    padding: 20px 49px;
+    padding: 20px 90px 30px 100px;
+    margin-top: 70px;
+    font-family: 'Lobster', cursive;
     height: 100%;
+}
+
+/*------------------ CALL TO ACTION ---------------------*/
+
+.call-container {
+    height: 240px;
+    width: 360px;
+    margin: 50px auto 50px auto;
+    border-radius: 20px;
+    display: block;
+    background-color: #fca311;
+}
+
+.call-container h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.call-container p {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-#navigation .active {
-    color: #be4444;
+a.call-button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
+a.call-button:hover {
+    background-color: #14213d;
+}
+
+/*------------------ RENTAL OPTIONS ---------------------*/
+
+.option {
+    height: 420px;
+    width: 360px;
+    margin: 20px auto 20px auto;
+    border-radius: 20px;
+    display: block;
+    background-color: #14213d;
+}
+
+.option img {
+    width: 360px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+p.rental-attribute {
+    font-size: .6rem;
+}
+
+.option p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.rent-button {
+    background-color: #fca311;
+    color: #000;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.rent-button:hover {
+    background-color: #fff;
+}
