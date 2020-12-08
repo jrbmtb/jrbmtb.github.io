@@ -189,6 +189,15 @@ p.rental-attribute {
     font-size: .6rem;
 }
 
+p.rental-attribute a {
+    text-decoration: none;
+    color: #008cff
+}
+
+p.rental-attribute a:hover {
+    color: #fca311;
+}
+
 .option p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
