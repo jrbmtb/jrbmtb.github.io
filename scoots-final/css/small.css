@@ -224,3 +224,52 @@ p.rental-attribute a:hover {
 .rent-button:hover {
     background-color: #fff;
 }
+
+/*------------------ WEATHER FORECAST ---------------------*/
+
+.hero-div {
+    position: relative;
+}
+
+.hero-image {
+    margin: 0;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+#weather-summary {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: .5rem;
+    background-color: #fbb03bb3;
+}
+
+#weather-summary h3 {
+    font-family: "Secular One", sans-serif;
+    margin-bottom: .4rem;
+}
+
+#weather-summary hr {
+    border: #000000 solid 1px;
+    margin-top: 0%;
+}
+
+#weather-summary p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
