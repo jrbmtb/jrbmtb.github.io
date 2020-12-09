@@ -40,7 +40,7 @@
                     </button>
                 </div>
                 <ul id="navigation" class="hide">
-                    <li class="list active"><a href="https://jrbmtb.github.io/scoots-final/index.html">Home</a></li>
+                    <li class="list nav-active"><a href="https://jrbmtb.github.io/scoots-final/index.html">Home</a></li>
                     <li class="list"><a href="#">Rentals</a></li>
                     <li class="list"><a href="#">Reservations</a></li>
                     <li class="list"><a href="#">Tours</a></li>
@@ -51,6 +51,9 @@
     </header>
 
     <main>
+        <!-- WELCOME -->
+
+        <!-- CALL TO ACTION -->
         <div class="call-container">
             <h1>Let's Explore!</h1>
             <p>There is a world of fun and adventure out there. What are you waiting to have the time of your life?</p>
@@ -58,6 +61,8 @@
         </div>
 
         <!-- RENTAL OPTIONS -->
+        <h1 id="first-heading">Our Rental Options</h1>
+        <hr id="first-heading-hr">
         <div class="option rental-one">
             <img src="images/scooter-400.jpg">
             <p class="rental-attribute">Photo by <a href="https://unsplash.com/@ruslanbardash" target="_blank">Ruslan
@@ -82,13 +87,58 @@
             <a href="#" class="rent-button">RENT A JEEP</a>
         </div>
 
+        <!-- SLIDESHOW -->
+        <div class="slide-container">
+
+            <div class="mySlides fade">
+                <picture class="slide-image">
+                    <source media="(max-width: 400px)" srcset="images/cozumel-one-400.jpg">
+                    <source media="(max-width: 800px)" srcset="images/cozumel-one-800.jpg">
+                    <source media="(max-width: 1200px)" srcset="images/cozumel-one-1200.jpg">
+                    <img src="images/cozumel-one.jpg" alt="cozumel beach" style="width: 100%;">
+                </picture>
+            </div>
+
+            <div class="mySlides fade">
+                <picture class="slide-image">
+                    <source media="(max-width: 400px)" srcset="images/cozumel-two-400.jpg">
+                    <source media="(max-width: 800px)" srcset="images/cozumel-two-800.jpg">
+                    <source media="(max-width: 1200px)" srcset="images/cozumel-two-1200.jpg">
+                    <img src="images/cozumel-two.jpg" alt="cozumel beach" style="width: 100%;">
+                </picture>
+            </div>
+
+            <div class="mySlides fade">
+                <picture class="slide-image">
+                    <source media="(max-width: 400px)" srcset="images/cozumel-three-400.jpg">
+                    <source media="(max-width: 800px)" srcset="images/cozumel-three-800.jpg">
+                    <source media="(max-width: 1200px)" srcset="images/cozumel-three.jpg">
+                    <img src="images/cozumel-three.jpg" alt="cozumel beach" style="width: 100%;">
+                </picture>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
         <!-- WEATHER FORECAST -->
+        <h1 id="second-heading">The Weather Now</h1>
+        <hr id="second-heading-hr">
         <div class="hero-div">
             <picture class="hero-image">
                 <source media="(max-width: 400px)" srcset="images/beach-forecast-400.jpg">
                 <source media="(max-width: 800px)" srcset="images/beach-forecast-800.jpg">
                 <source media="(max-width: 1200px)" srcset="images/beach-forecast-1200.jpg">
-                <img src="images/beach-forecast.jpg" alt="beach">
+                <img src="images/beach-forecast-1200.jpg" alt="beach">
             </picture>
             <section id="weather-summary">
                 <h3>Weather Summary</h3>
@@ -101,6 +151,12 @@
             </section>
         </div>
     </main>
+
+    <footer>
+        <div class="footer-style">
+            <p>&copy; 2020 | Scoots | Made with &#10084; by JRB D&D.Co</p>
+        </div>
+    </footer>
 
     <!-- Web Font Loader -->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

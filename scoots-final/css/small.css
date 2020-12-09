@@ -22,8 +22,8 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: #ffffff;
-    border-bottom: 2px solid #000;
+    background-color: #aaa7a7e5;
+    border-bottom: 2px solid #6e6c6c;
 }
 
 figure.header_logo {
@@ -125,6 +125,69 @@ button {
     height: 100%;
 }
 
+/*------------------ SLIDESHOW ---------------------*/
+.slide-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
 /*------------------ CALL TO ACTION ---------------------*/
 
 .call-container {
@@ -169,6 +232,17 @@ a.call-button:hover {
 }
 
 /*------------------ RENTAL OPTIONS ---------------------*/
+
+#first-heading {
+    font-family: 'Lobster', cursive;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+#first-heading-hr {
+    border: 1px black solid;
+    margin-bottom: 40px;
+}
 
 .option {
     height: 420px;
@@ -227,6 +301,18 @@ p.rental-attribute a:hover {
 
 /*------------------ WEATHER FORECAST ---------------------*/
 
+#second-heading {
+    font-family: 'Lobster', cursive;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+#second-heading-hr {
+    border: 1px black solid;
+    margin-bottom: 35px;
+}
+
 .hero-div {
     position: relative;
 }
@@ -246,11 +332,12 @@ p.rental-attribute a:hover {
     padding-left: 1rem;
     padding-right: 1rem;
     line-height: .5rem;
-    background-color: #fbb03bb3;
+    background-color: #fca311;
+    border-radius: 20px;
 }
 
 #weather-summary h3 {
-    font-family: "Secular One", sans-serif;
+    font-family: 'Lobster', cursive;
     margin-bottom: .4rem;
 }
 
@@ -262,6 +349,18 @@ p.rental-attribute a:hover {
 #weather-summary p {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+}
+
+/*--------------------- FOOTER ---------------------*/
+
+.footer-style {
+    background-color: #aaa7a7e5;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid #6e6c6c;
 }
 
 
