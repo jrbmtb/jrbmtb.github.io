@@ -458,7 +458,6 @@ form div {
     padding-top: 1rem;
     color: #008cff;
     font-size: 1rem;
-    font-family: "Secular One", sans-serif;
 }
 
 form label.top input,
@@ -512,9 +511,19 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
-.thanks-message {
-    font-family: "Secular One", sans-serif;
-    color: #00a99d;
+/*--------------------------------------------------------*/
+/*--------------------- FORM MESSAGE ---------------------*/
+/*--------------------------------------------------------*/
+
+#form-message {
+    height: 120px;
+    width: 360px;
+    margin: 20px auto 30px auto;
+    border-radius: 20px;
+    background-color: #14213d;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lobster', cursive;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
