@@ -11,7 +11,7 @@
                 "halfDay": 25,
                 "fullDay": 35
             },
-            "picture": "images/honda-metro-400.jpg"
+            "picture": "https://jrbmtb.github.io/scoots-final/images/honda-metro-400.jpg"
         },
         {
             "rentalType": "Honda Dio Scooter",
@@ -23,7 +23,8 @@
             "walkIn": {
                 "halfDay": 35,
                 "fullDay": 45
-            } 
+            },
+            "picture": "https://jrbmtb.github.io/scoots-final/images/honda-dio-400.jpg" 
         },
         {
             "rentalType": "Honda PCX150 Scooter",
@@ -35,7 +36,8 @@
             "walkIn": {
                 "halfDay": 45,
                 "fullDay": 55
-            }
+            },
+            "picture": "https://jrbmtb.github.io/scoots-final/images/honda-pcx-400.jpg"
         },
         {
             "rentalType": "Honda Pioneer ATV",
@@ -47,7 +49,8 @@
             "walkIn": {
                 "halfDay": 60,
                 "fullDay": 80
-            }
+            },
+            "picture": "https://jrbmtb.github.io/scoots-final/images/honda-pioneer-400.jpg"
         },
         {
             "rentalType": "Jeep Wrangler - 4 door with a/c",
@@ -59,7 +62,8 @@
             "walkIn": {
                 "halfDay": 85,
                 "fullDay": 125
-            }
+            },
+            "picture": "https://jrbmtb.github.io/scoots-final/images/jeep-4door-400.jpg"
         },
         {
             "rentalType": "Jeep Wrangler - 2 door",
@@ -71,7 +75,8 @@
             "walkIn": {
                 "halfDay": 70,
                 "fullDay": 90
-            }
+            },
+            "picture": "https://jrbmtb.github.io/scoots-final/images/jeep-2door-400.jpg"
         }
     ]
 }
