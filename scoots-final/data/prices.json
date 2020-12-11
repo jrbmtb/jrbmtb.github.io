@@ -10,7 +10,8 @@
             "walkIn": {
                 "halfDay": 25,
                 "fullDay": 35
-            }
+            },
+            "picture": "images/honda-metro-400.jpg"
         },
         {
             "rentalType": "Honda Dio Scooter",
