@@ -54,11 +54,101 @@
         <!-- WELCOME -->
 
         <!-- RENTAL OPTIONS -->
-        <h1 id="first-heading">Our Rental Options</h1>
+        <h1 id="first-heading">Almost there!</h1>
         <hr id="first-heading-hr">
 
+        <form method="get" action="#">
 
+            <!-- User information -->
+            <fieldset>
+                <legend>User Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z]{1,100}"
+                        required></label>
+                <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{1,100}"
+                        required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@myemail.com"></label>
+                <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+                <label class="top">Your Country* <input type="text" name="cname" pattern="[A-Za-z]{1,100}"
+                        required></label>
+                <label class="top">Your City* <input type="text" name="cname" pattern="[A-Za-z]{1,100}"
+                        required></label>
+            </fieldset>
 
+            <!-- Rent details -->
+            <fieldset>
+                <legend>Rent Details</legend>
+                <label class="top">Date <input type="date" name="completeDate"></label>
+
+                <!-- Rent type -->
+                <label class="top">Rent Type
+                    <input list="vehicles" name="vehicle type">
+                    <datalist id="vehicles">
+                        <option value="Honda Metro Scooter">
+                        <option value="Honda Dio Scooter">
+                        <option value="Honda PCX150 Scooter">
+                        <option value="Honda Pioneer ATV">
+                        <option value="Jeep Wrangler - 4 door">
+                        <option value="Jeep Wrangler - 2 door">
+                    </datalist>
+                </label>
+
+                <!-- Rent Period -->
+                <p>Select if you want to rent for hours or for days:</p>
+                <label class="top">Rent for Hours (1 to 23)
+                    <select name="subject">
+                        <option value="">Select hours... </option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+                </label>
+
+                <label class="top">Rent for Days (1 to 10)
+                    <select name="subject">
+                        <option value="">Select days... </option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <!-- Special Accommodations -->
+            <fieldset>
+                <legend>Special Accommodations</legend>
+                <p>Tell us if you have special needs!</p>
+                <textarea id="review" name="review" rows="5" cols="50"></textarea>
+            </fieldset>
+
+            <input type="submit" value="RESERVE NOW" class="submitBtn">
+        </form>
 
     </main>
 
