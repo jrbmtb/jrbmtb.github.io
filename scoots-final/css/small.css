@@ -14,6 +14,7 @@ html {
 body {
     margin-left: 0px;
     margin-right: 0px;
+    background-color: #ffeab0;
 }
 
 /*--------------------- HEADER ---------------------*/
@@ -22,7 +23,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: #d87b7be5;
+    background-color: #fff;
     border-bottom: 2px solid #6e6c6c;
 }
 
@@ -354,7 +355,7 @@ p.rental-attribute a:hover {
 /*--------------------- FOOTER ---------------------*/
 
 .footer-style {
-    background-color: #d87b7be5;
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 50px;

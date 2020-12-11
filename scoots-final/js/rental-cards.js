@@ -24,6 +24,7 @@ fetch(requestURL)
       let p5 = document.createElement('p'); //Full day
 
       img.setAttribute('src', "images/" + rentals[i].picture); //Rental image
+      img.setAttribute('alt', "Picture of " + rentals[i].rentalType);
       h2.textContent = rentals[i].rentalType; //Rental name
       p1.textContent = 'Max. Persons: ' + rentals[i].maxPersons; //Max persons
       h3.textContent = 'Reservation Price:'; //Reservation $
