@@ -364,8 +364,73 @@ p.rental-attribute a:hover {
     border-top: 2px solid #6e6c6c;
 }
 
+/*--------------------------------------------------------*/
+/*--------------------- RENTALS PAGE ---------------------*/
+/*--------------------------------------------------------*/
 
+.rental-info section {
+    height: 550px;
+    width: 360px;
+    margin: 20px auto 30px auto;
+    border-radius: 20px;
+    display: block;
+    background-color: #14213d;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
 
+.rental-info section img {
+    width: 360px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.rental-info section h2 {
+    font-family: 'Lobster', cursive;
+}
+
+.rental-info section hr {
+    color: #ffeab0;
+}
+
+.rental-info section h3 {
+    color: #008cff;
+}
+
+.rental-info section h2,
+.rental-info section p,
+.rental-info section h3 {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.rental-info section h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fca311;
+}
+
+.rental-info section a {
+    background-color: #fca311;
+    color: #000;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.rental-info section a:hover {
+    background-color: #fff;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
