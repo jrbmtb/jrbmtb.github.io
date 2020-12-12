@@ -14,7 +14,7 @@ html {
 body {
     margin-left: 0px;
     margin-right: 0px;
-    background-color: #faeac1;
+    background-color: #fff0dc;
 }
 
 /*--------------------- HEADER ---------------------*/
@@ -269,7 +269,7 @@ a.call-button:hover {
     width: 100%;
     margin: 40px auto 20px auto;
     display: block;
-    background-color: #3d3c3c;
+    background-color: #000000;
 }
 
 .second-headings h1 {
@@ -346,7 +346,7 @@ p.rental-attribute a:hover {
 }
 
 #second-heading-hr {
-    border: 1px black solid;
+    border: .5px black solid;
     margin-bottom: 35px;
 }
 
@@ -370,6 +370,7 @@ p.rental-attribute a:hover {
     padding-right: 1rem;
     line-height: .5rem;
     background-color: #fca311;
+    color: #14213d;
     border-radius: 20px;
 }
 
@@ -388,16 +389,98 @@ p.rental-attribute a:hover {
     font-weight: bold;
 }
 
+.forecast {
+    font-family: 'Lobster', cursive;
+    margin-left: 10px;
+}
+
+#forecast-p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+.hola {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-color: black;
+}
+
+#weatherforecast {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#weatherforecast div:nth-child(1),
+#weatherforecast div:nth-child(2),
+#weatherforecast div:nth-child(3),
+#weatherforecast div img {
+    display: flex;
+    flex-direction: column;
+    background-color: #14213d;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px 15px 20px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#weatherforecast div:nth-child(4),
+#weatherforecast div:nth-child(5) {
+    display: none;
+}
+
+#weatherforecast div img {
+    width: 150%;
+}
+
 /*--------------------- FOOTER ---------------------*/
+
+.social-media {
+    font-size: 1rem;
+    text-align: center;
+    background-color: #000;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+  
+.social-media p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-media a {
+    padding: 1rem;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+}
+
+.social-media a:nth-child(1):hover {
+    background-color: #3c55c5;
+}
+
+.social-media a:nth-child(2):hover {
+    background-color: #db3c5e;
+}
+
+.social-media a:nth-child(3):hover {
+    background-color: #d12a2a;
+}
 
 .footer-style {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-top: 2px solid #6e6c6c;
 }
 
 /*--------------------------------------------------------*/
