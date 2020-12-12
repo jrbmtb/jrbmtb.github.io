@@ -14,7 +14,7 @@ html {
 body {
     margin-left: 0px;
     margin-right: 0px;
-    background-color: #ffeab0;
+    background-color: #faeac1;
 }
 
 /*--------------------- HEADER ---------------------*/
@@ -24,7 +24,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: #fff;
-    border-bottom: 2px solid #6e6c6c;
 }
 
 figure.header_logo {
@@ -126,67 +125,31 @@ button {
     height: 100%;
 }
 
-/*------------------ SLIDESHOW ---------------------*/
-.slide-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+/*------------------- WELCOME ----------------------*/
+
+.welcome-div {
+    width: 100%;
+    margin: 0px auto 20px auto;
+    display: block;
+    background-color: #000;
 }
 
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+.welcome-div h1 {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-  
-.active, .dot:hover {
-    background-color: #717171;
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-  
-@-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-  
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+.default-p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 23px;
 }
 
 /*------------------ CALL TO ACTION ---------------------*/
@@ -194,7 +157,7 @@ button {
 .call-container {
     height: 240px;
     width: 360px;
-    margin: 50px auto 50px auto;
+    margin: 40px auto 50px auto;
     border-radius: 20px;
     display: block;
     background-color: #fca311;
@@ -232,17 +195,90 @@ a.call-button:hover {
     background-color: #14213d;
 }
 
-/*------------------ RENTAL OPTIONS ---------------------*/
+/*------------------ THE ISLAND --------------------*/
 
-#first-heading {
-    font-family: 'Lobster', cursive;
-    margin-left: 10px;
-    margin-bottom: 8px;
+/*------------------ SLIDESHOW ---------------------*/
+
+.slide-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
-#first-heading-hr {
-    border: 1px black solid;
-    margin-bottom: 40px;
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 12px;
+    margin-top: -22px;
+    color: #14213d;
+    background-color: #ffffffcc;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #14213d;
+    color: #fca311;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #14213d;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #fca311;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/*------------------ RENTAL OPTIONS ---------------------*/
+
+.second-headings {
+    width: 100%;
+    margin: 40px auto 20px auto;
+    display: block;
+    background-color: #3d3c3c;
+}
+
+.second-headings h1 {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .option {
