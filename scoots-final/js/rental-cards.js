@@ -35,7 +35,13 @@ fetch(requestURL)
       h3s.textContent = 'Walk-In Price'; //Walk-In $
       p4.textContent = 'Half day: $' + rentals[i].walkIn.halfDay; //Half day
       p5.textContent = 'Full day: $' + rentals[i].walkIn.fullDay; //Full day
-      b.textContent = 'I WANT THIS'; //Rent button
+      
+      var link = document.createTextNode("I WANT THIS");
+      b.appendChild(link);
+      b.title = "I WANT THIS";
+      b.href = "https://jrbmtb.github.io/scoots-final/reservations.html";
+      b.target = "_blank";
+
 
       card.appendChild(img); //Rental image
       card.appendChild(h2); //Rental name
