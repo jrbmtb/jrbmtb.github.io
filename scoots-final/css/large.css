@@ -1,0 +1,29 @@
+@media only screen and (min-width: 64rem) {
+
+    /*------------------ RENTAL OPTIONS ---------------------*/
+
+    .option {
+        height: 400px;
+        width: 300px;
+        margin: 20px auto 20px auto;
+    }
+
+    .option img {
+        width: 300px;
+    }
+
+    .container-flex {
+        display: flex;
+    }
+
+    /*--------------------------------------------------------*/
+    /*--------------------- RENTALS PAGE ---------------------*/
+    /*--------------------------------------------------------*/
+
+    .rental-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}
